@@ -18,12 +18,17 @@
         <div class="container mx-auto lg:px-24 px-8">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      <!-- <li><a>Item 1</a></li>
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <!-- <li><a>Item 1</a></li>
                       <li>
                         <a>Parent</a>
                         <ul class="p-2">
@@ -32,30 +37,74 @@
                         </ul>
                       </li>
                       <li><a>Item 3</a></li> -->
-                    </ul>
-                  </div>
-                  <a class="btn btn-ghost text-2xl font-bold p-4">PI-Ticket</a>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-2xl font-bold p-4">PI-Ticket</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1 text-[#030712B3]">
-                    <li><a>Home</a></li>
-                    <li>
-                     <a>About</a>
-                    </li>
-                    <li><a>Destinaton</a></li>
-                    <li><a>Search</a></li>
-                  </ul>
+                    <ul class="menu menu-horizontal px-1 text-[#030712B3]">
+                        <li><a>Home</a></li>
+                        <li>
+                            <a>About</a>
+                        </li>
+                        <li><a>Destinaton</a></li>
+                        <li><a>Search</a></li>
+                    </ul>
                 </div>
                 <div class="navbar-end p-4 ">
-                  <a class="btn text-[#1DD100]  font-bold text-xl border-2 border-[#1DD1001A]">Bus <img src="images/bus-icon.png" alt=""></a>
+                    <a class="btn text-[#1DD100]  font-bold text-xl border-2 border-[#1DD1001A]">Bus <img
+                            src="images/bus-icon.png" alt=""></a>
                 </div>
-              </div>
+            </div>
 
         </div>
         <!-- nav-bar-end -->
     </header>
-    <section>
+    <section class="mx-auto lg:px-24 px-8">
         <!-- banner -->
+        <!-- class="bg-[url('/img/hero-pattern.svg')]"> -->
+        <div class="w-full h-[80vh] bg-[url('images/banner.png')] bg-no-repeat relative">
+            <!-- <img src="bg-[url('images/banner.png')]" alt=""> -->
+            <div class="text-center absolute left-60 top-10">
+                <h2 class="text-white text-[64px] font-bold p-5 ">End-to-End Travel with</h2>
+                <h3 class="text-[#1DD100] text-4xl font-bold p-4">P Paribahan</h3>
+                <p class="text-white text-xl p-2">Yes, you can run unit tests and view the results directly within the
+                    app. The
+                    <br>
+                    integrated testing features allow for a streamlined .
+                </p>
+                <div class="text-center my-2">
+                    <button class="rounded-lg bg-[#1DD100] font-medium text-xl p-2">Buy tickets</button>
+                </div>
+            </div>
+            <div class="grid grid-cols-3 absolute top-[450px] left-20 gap-5">
+                <div class="card card-side bg-base-100 shadow-xl w-80 h-36 p-5">
+                    <figure><img src="images/people.png" alt="Movie"/></figure>
+                    <div class="card-body">
+                      <h4 class="text-[#030712] text-xl font-bold">500+K</h4>
+                      <P class="text-[#03071299] text-xs">Registered usres</P>
+                    </div>
+                  </div>
+                  <!-- 2 -->
+                  <div class="card card-side bg-base-100 shadow-xl w-80 h-36 p-5">
+                    <figure><img src="images/ticket-cupon.png" alt="Movie"/></figure>
+                    <div class="card-body">
+                      <h4 class="text-[#030712] text-xl font-bold">1.7 lacks</h4>
+                      <P class="text-[#03071299] text-xs">Tickets sold</P>
+                    </div>
+                  </div>
+                  <!-- 3 -->
+                  <div class="card card-side bg-base-100 shadow-xl w-80 h-36 p-5">
+                    <figure><img src="images/stoppage.png" alt="Movie"/></figure>
+                    <div class="card-body">
+                      <h4 class="text-[#030712] text-xl font-bold">80+K</h4>
+                      <P class="text-[#03071299] text-xs">Rental partners</P>
+                    </div>
+                  </div>
+            </div>
+
+
+        </div>
     </section>
     <section>
         <!-- best offers -->
